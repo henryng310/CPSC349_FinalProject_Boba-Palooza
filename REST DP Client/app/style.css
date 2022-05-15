@@ -1,0 +1,137 @@
+body {
+    background-color: #FFE1ED;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+    margin: auto;
+    width: 100%;
+    padding: 0.5em;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    border-radius: 0em 0em 1.5em 1.5em;
+    border-style: solid;
+    background-color: #ADD8E6;
+}
+
+.logo img {
+    border-radius: 1em;
+    height: 75px;
+    width: 125px;
+}
+
+.linkbar {
+    position: fixed;
+    font-style: normal;
+    top: 1.5em;
+    left: 10em;
+}
+
+.linkbar li {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+}
+
+.linkbar a:link {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.linkbar a:hover {
+    color: #FF0066;
+    background-color: #FFE1ED;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.linkbar a:visited {
+    color: #C280B6;
+}
+
+.header {
+    height: 50em;
+    width: 90%;
+    margin: auto;
+    margin-top: 5em;
+    background-image: url('images/boba_bg.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 1.5em;
+    border-style: inset;
+}
+
+.header h1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0.5em;
+    background-color: #ADD8E6;
+    border-radius: 0.5em;
+    border-style: outset;
+}
+
+.pheader {
+    height: 10em;
+    width: 90%;
+    margin: auto;
+    margin-top: 5em;
+    background-image: url('images/boba_bg.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 1.5em;
+    border-style: inset;
+}
+
+.pheader h1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0.5em;
+    background-color: #ADD8E6;
+    border-radius: 0.5em;
+    border-style: outset;
+}
+
+.products {
+    margin: auto;
+    width: 90%;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1.5em;
+    border-style: solid;
+    background-color: #ADD8E6;
+}
+
+.products img {
+    border-style: solid;
+    border-radius: 1em;
+}
+
+.products table {
+    margin: auto;
+    width: 80%;
+}
+
+.order {
+    margin: auto;
+    width: 90%;
+    padding: 2em;
+    border-radius: 1.5em;
+    border-style: solid;
+    background-color: #c9cfd6;
+}
+
+.order table {
+    padding: 1em;
+    margin: auto;
+    width: 80%;
+    border-radius: 1.5em;
+    border-style: ridge;
+}
+
